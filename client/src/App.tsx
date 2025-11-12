@@ -22,7 +22,7 @@ function App() {
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
-          {/* 👇 Aqui está o importante */}
+          {/* 👇 Não esquecer -- puff */}
           <WouterRouter base="/timehhospitalar">
             <Routes />
           </WouterRouter>
