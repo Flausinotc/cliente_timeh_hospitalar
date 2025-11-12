@@ -1,8 +1,16 @@
 export { COOKIE_NAME, ONE_YEAR_MS } from "@shared/const";
 
-export const APP_TITLE = import.meta.env.VITE_APP_TITLE || "App";
+export const APP_TITLE = import.meta.env.VITE_APP_TITLE || "Time H Hospitalar";
 
-export const APP_LOGO = "https://placehold.co/128x128/E1E7EF/1F2937?text=App";
+export const APP_LOGO = "/timeh-logo.svg";
+
+export const WHATSAPP_NUMBER = "5511912553377";
+
+// WhatsApp contact link
+export const getWhatsAppLink = () => {
+  const message = "Olá! Gostaria de mais informações sobre os serviços da Time H Hospitalar.";
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+};
 
 // Generate login URL at runtime so redirect URI reflects the current origin.
 export const getLoginUrl = () => {

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#1a3a52" stroke-width="2"/>
+  
+  <!-- Navy Blue Cross (Medical) -->
+  <g fill="#1a3a52">
+    <!-- Vertical bar -->
+    <rect x="85" y="60" width="30" height="80" rx="3"/>
+    <!-- Horizontal bar -->
+    <rect x="60" y="85" width="80" height="30" rx="3"/>
+  </g>
+  
+  <!-- Teal accent elements -->
+  <g fill="#17a2b8" opacity="0.8">
+    <!-- Top right accent -->
+    <circle cx="140" cy="60" r="8"/>
+    <!-- Bottom left accent -->
+    <circle cx="60" cy="140" r="8"/>
+  </g>
+  
+  <!-- Medical symbol details -->
+  <g stroke="#17a2b8" stroke-width="2" fill="none" stroke-linecap="round">
+    <!-- Pulse line effect -->
+    <path d="M 30 100 L 40 100 L 45 85 L 50 115 L 55 100 L 65 100"/>
+  </g>
+  
+  <!-- Text: Time H -->
+  <text x="100" y="165" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a3a52" text-anchor="middle">TIME H</text>
+</svg>
